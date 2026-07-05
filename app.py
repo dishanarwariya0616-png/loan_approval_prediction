@@ -16,13 +16,3 @@ if st.button("Predict"):
         st.success("Loan Approved")
     else:
         st.error("Loan Rejected")
-
-        #if st.button("Predict"):
-    #input_data = [[age, income, loan, credit_score]]
-
-    #prediction = model.predict(input_data)
-
-   # if prediction[0] == 1:
-        #st.success("✅ Loan Approved")
-   # else:
-       # st.error("❌ Loan Rejected")
